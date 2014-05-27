@@ -1,0 +1,90 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+ 	font-size: 3em;
+	font-style: normal;
+	margin-left: -10px;
+	margin-bottom: 30px;
+}.flaticon-cat2:before {
+	content: "\e000";
+}
+.flaticon-coffin:before {
+	content: "\e001";
+}
+.flaticon-creepy:before {
+	content: "\e002";
+}
+.flaticon-cross3:before {
+	content: "\e003";
+}
+.flaticon-cross6:before {
+	content: "\e004";
+}
+.flaticon-flying6:before {
+	content: "\e005";
+}
+.flaticon-halloween11:before {
+	content: "\e006";
+}
+.flaticon-halloween14:before {
+	content: "\e007";
+}
+.flaticon-halloween32:before {
+	content: "\e008";
+}
+.flaticon-halloween33:before {
+	content: "\e009";
+}
+.flaticon-halloween4:before {
+	content: "\e00a";
+	color: orange;
+}
+.flaticon-halloween42:before {
+	content: "\e00b";
+}
+.flaticon-halloween43:before {
+	content: "\e00c";
+}
+.flaticon-halloween46:before {
+	content: "\e00d";
+}
+.flaticon-halloween47:before {
+	content: "\e00e";
+}
+.flaticon-halloween54:before {
+	content: "\e00f";
+}
+.flaticon-halloween56:before {
+	content: "\e010";
+}
+.flaticon-halloween59:before {
+	content: "\e011";
+}
+.flaticon-halloween6:before {
+	content: "\e012";
+}
+.flaticon-halloween60:before {
+	content: "\e013";
+}
+.flaticon-pumpkin1:before {
+	content: "\e014";
+}
+.flaticon-pumpkin2:before {
+	content: "\e015";
+}
+.flaticon-witchery:before {
+	content: "\e016";
+}
+.flaticon-spider4:before {
+	content: "\e016";
+}

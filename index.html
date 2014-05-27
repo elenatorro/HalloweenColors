@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Halloween Colors</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/icon/flaticon.css"> 
+    <link href="css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Griffy' rel='stylesheet' type='text/css'>
+
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+<div id ="menu" class="navbar navbar-default navbar-static-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <i id="moon" class="flaticon-halloween4 icons"></i>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+<div class="container">
+  <div class="text-center">
+  <h1>Halloween Colors</h1>
+    <p class="lead"></p>
+    <button onclick="StartGame();" class="btn btn-lg btn-default">Start Game</button>
+    <button onclick="ShowInstructions();" class="btn btn-lg btn-default">Instructions</button>
+    <div class="btn btn-lg btn-default" id="score">Score: 0 points.</div>
+  </div>
+    <div id="lost" class="container cont-big info">
+    <p>You lost!<p>
+    <h3 id="alert-score"></h3>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://elenatorro.github.io/halloween-colors" data-text="I just played Halloween Colors! :)" data-size="large" data-count="none" data-hashtags="HalloweenColors">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <button onclick="Close('lost');" class="btn btn-lg btn-default">Close</button>
+  </div>
+   <div id="instructions" class="container cont-big info">
+    <p>Instructions<p>
+      <h3>Click on the elements to change their color.</h3>
+      <h3>Same elements with the same color will be removed, just when the color just changed.</h3>
+      <h3>Click as fast as you can, or you will lose!</h3>
+    <button onclick="Close('instructions');" class="btn btn-lg btn-default">Close</button>
+  </div>
+  <div id="board" class="container cont-big">
+    <div class="grid-row">
+      <div class="elements container cont-small" id="00"></div>
+      <div class="elements container cont-small" id="01"></div>
+      <div class="elements container cont-small" id="02"></div>
+      <div class="elements container cont-small" id="03"></div>
+      <div class="elements container cont-small" id="04"></div>
+  </div>
+    <div class="grid-row">
+      <div class="elements container cont-small" id="10"></div>
+      <div class="elements container cont-small" id="11"></div>
+      <div class="elements container cont-small" id="12"></div>
+      <div class="elements container cont-small" id="13"></div>
+      <div class="elements container cont-small" id="14"></div>
+    </div>
+    <div class="grid-row">
+      <div class="elements container cont-small" id="20"></div>
+      <div class="elements container cont-small" id="21"></div>
+      <div class="elements container cont-small" id="22"></div>
+      <div class="elements container cont-small" id="23"></div>
+      <div class="elements container cont-small" id="24"></div>
+    </div>
+    <div class="grid-row">
+      <div class="elements container cont-small" id="30"></div>
+      <div class="elements container cont-small" id="31"></div>
+      <div class="elements container cont-small" id="32"></div>
+      <div class="elements container cont-small" id="33"></div>
+      <div class="elements container cont-small" id="34"></div>
+    </div>
+    <div class="grid-row">
+      <div class="elements container cont-small" id="40"></div>
+      <div class="elements container cont-small" id="41"></div>
+      <div class="elements container cont-small" id="42"></div>
+      <div class="elements container cont-small" id="43"></div>
+      <div class="elements container cont-small" id="44"></div>
+    </div>
+<!--       <i class="flaticon-coffin icons"></i> -->
+<img id="creepy-tree" src="css/icon/halloween6.png"/>
+</div><!-- /.container -->
+	<!-- script references -->
+
+
+  <footer class="container">
+      <p>Created by <a href="http://twitter.com/Elenarcolepsia" alt="twitter">Elena Torr&oacute;</a></p>
+  </footer>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+    <script src="js/cookies.js" type="text/javascript"></script> 
+    <script src="js/halloween-colors.js" type="text/javascript"></script> 
+    <script src="js/halloween-svg.js" type="text/javascript"></script> 
+    <script src="js/halloween-element.js" type="text/javascript"></script> 
+    <script src="js/halloween-matrix.js" type="text/javascript"></script>
+    <script src="js/halloween-grid.js" type="text/javascript"></script> 
+    <script src="js/halloween-colors.js" type="text/javascript"></script>
+    <script src="js/halloween-game.js" type="text/javascript"></script> 
+	</body>
+</html>
