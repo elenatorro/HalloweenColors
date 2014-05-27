@@ -113,3 +113,22 @@ i {
 footer {
 	color: white;
 }
+
+@media (max-width: 600px) and (min-height: 600px) {
+	#creepy-tree {
+	width: 300px;
+	}
+
+	.cont-big {
+	width: 300px;
+	height: 300px; 
+
+	}
+	.cont-small {
+	width: 45px;
+	height: 45px;
+	}
+	#moon {
+		visibility: hidden;
+	}
+}
