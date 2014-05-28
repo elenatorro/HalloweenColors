@@ -11,25 +11,20 @@ background-position: fixed;
 }
 
 h1 {
-   font-size: 6em;
+   font-size: 3em;
    font-family: 'Griffy', cursive;
    color: orange;
    text-shadow: 3px 3px 3px black;
 }
 
 
-
-i {
-	
-}
-
 #menu {
 	background-color: transparent;
 	color: white;
 }
 .menu-items  {
-	font-size: 2em;
 	color: yellow;
+	font-size: 2em;
 }
 
 .icons {
@@ -44,11 +39,11 @@ i {
 }
 
 .cont-big {
-	width: 620px;
 	height: 620px;
+	margin-top: 10px;
 	padding-left: 30px;
 	padding-top: 30px;
-	margin-top: 10px;
+	width: 620px;
 	-webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -58,29 +53,29 @@ i {
 }
 
 .cont-small {
-	width: 110px;
-	height: 110px;
-	border-radius: 5px;
-	margin: 1px;
 	background-color: black;
+	border-radius: 5px;
 	float: left;
-	text-align: left;
+	height: 110px;
+	margin: 1px;
 	opacity: 0.9;
+	text-align: left;
+	width: 110px;
 }
 
 #creepy-tree {
-	position:absolute;
 	left:50%;
+	position:absolute;
 	top:50%;
-	z-index:-1;
 	width: 700px;
+	z-index:-1;
 }
 
 .btn {
 	background-color: orange;
-	color: black;
 	border-color: black;
 	border-width: 3px;
+	color: black;
 }
 
 #moon {
@@ -89,12 +84,12 @@ i {
 }
 
 .info {
-	font-size: 6em;
 	background-color: orange;
 	border-radius: 5px;
+	font-size: 3em;
 	height: 620px;
 	opacity: 0.8;
-	padding-top: 200px;
+	padding-top: 60px;
 	position: absolute;
 	text-align: center;
   	left: 0;
@@ -106,7 +101,7 @@ i {
   	width: 620px;
   	z-index: 1;
    	color: black;
-   	font-family: 'Griffy', cursive;
+   	font-family: 'Griffy';
    	visibility: hidden;
 }
 
@@ -120,16 +115,26 @@ footer {
 	}
 
 	.cont-big {
-	width: 300px;
 	height: 300px; 
+	width: 300px;
 
 	}
+	
 	.cont-small {
-	width: 45px;
 	height: 45px;
+	width: 45px;
 	}
+
 	#moon {
 		visibility: hidden;
+	}
+
+	.info {
+		font-family: 'Helvetica';
+		font-size: 12px;
+		height: 300px; 
+		padding-top: 50px;
+		width: 300px;
 	}
 }
 
@@ -140,38 +145,55 @@ footer {
 	}
 
 	.cont-big {
-	width: 300px;
 	height: 300px; 
+	width: 300px;
 
 	}
+
 	.cont-small {
 	width: 45px;
 	height: 45px;
 	}
+
 	#moon {
 		visibility: hidden;
 	}
-}
+
+	.info {
+		font-family: 'Helvetica';
+		font-size: 12px;
+		height: 300px; 
+		padding-top: 50px;
+		width: 300px;
+	}
 }
 
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media screen and (min-width: 600px) {
 	#creepy-tree {
-	width: 300px;
+	width: 600px;
 	}
 
 	.cont-big {
-	width: 300px;
-	height: 300px; 
+	height: 620px; 
+	width: 620px;
 
 	}
+
 	.cont-small {
-	width: 45px;
-	height: 45px;
+	height: 110px;
+	width: 110px;
 	}
-	#moon {
-		visibility: hidden;
-	}
-}
-}
 
+	#moon {
+		visibility: visible;
+	}
+
+	.info {
+	font-size: 2em;
+	height: 620px;
+	padding-top: 60px;
+	width: 620px;
+   	font-family: 'Griffy', cursive;
+	}
+}
